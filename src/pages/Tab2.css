@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+ion-row {
+  padding: 70px 0;
+}
+.title {
+  text-align: center;
+  font: bold;
+  font-size: x-large;
+  color: rgb(139, 43, 139);
+}
+.valid {
+  display: block;
+  color: green;
+  text-align: center;
+}

@@ -1,6 +1,10 @@
 ion-header ion-toolbar ion-title {
   text-align: center;
   font-size: 1.4em;
-  color: red;
+  color: #6600cc;
+}
+
+ion-content {
+  display: inline;
 }
 /*# sourceMappingURL=tab3.css.map */

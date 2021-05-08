@@ -1,0 +1,10 @@
+@import "./function.scss";
+ion-header ion-toolbar ion-title {
+  text-align: center;
+  font-size: 1.4em;
+  color: $primary-color;
+}
+ion-content {
+  display: inline;
+  // border: 1px solid red;
+}

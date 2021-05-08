@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,UAAU,CAAC,WAAW,CAAC,SAAS,CAAC;EAC/B,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,KAAK;EAChB,KAAK,ECJS,OAAO;CDKtB;;AACD,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,MAAM;CAEhB",
+    "sources": [
+        "tab3.scss",
+        "function.scss"
+    ],
+    "names": [],
+    "file": "tab3.css"
+}
