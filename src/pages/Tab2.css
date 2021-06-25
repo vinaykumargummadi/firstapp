@@ -9,6 +9,7 @@ ion-row {
   font: bold;
   font-size: x-large;
   color: rgb(139, 43, 139);
+  font-size: larger;
 }
 .valid {
   display: block;

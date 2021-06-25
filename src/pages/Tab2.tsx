@@ -1,7 +1,7 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar,IonGrid,IonRow,IonCol } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar,IonGrid,IonRow,IonCol, IonImg } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab2.css';
-
+ 
 const Tab2: React.FC = () => {
   return (
     <IonPage>
@@ -13,10 +13,11 @@ const Tab2: React.FC = () => {
       <IonContent fullscreen>
         <IonGrid>
           <IonRow>
-            <IonCol size="12" class="title">This is the E - Passbook</IonCol>
-            <IonCol size="12" class="valid">
-              <p> Valid till : </p><h2> "25-NOV-2021"</h2>
+            <IonCol size="12" class="title">Scan the Below QR Code</IonCol>
+            <IonCol size="12" class="qr-container">
+              <img src="../assets/images/qrcode.png"></img>
             </IonCol>
+            <IonCol size="12" class="title">To check the validity of the Bus Pass.</IonCol>
         </IonRow>
       </IonGrid>
       </IonContent>

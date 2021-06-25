@@ -1,6 +1,11 @@
 ion-header ion-toolbar ion-title {
   text-align: center;
   font-size: 1.4em;
-  color: red;
+  /* color: red; */
 }
+.card-overlay {
+  width: 100%;
+  margin: 7px 0px;
+}
+
 /*# sourceMappingURL=tab3.css.map */

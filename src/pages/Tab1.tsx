@@ -1,22 +1,25 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar,IonIcon } from '@ionic/react';
+import { camera } from 'ionicons/icons';
+import React from 'react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab1.css';
-
+ 
 const Tab1: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle className="center">Tab 1 title</IonTitle>
+          <IonTitle className="center">Scan The QR Code</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Tab 1</IonTitle>
+            <IonTitle size="large">vinay</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 1 page" />
+        <IonButton expand="full" shape="round" href="#" className="sc_btn" >
+        <IonIcon slot="end" icon={camera} />Open Scanner</IonButton>
       </IonContent>
     </IonPage>
   );
